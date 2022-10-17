@@ -1,0 +1,79 @@
+@font-face {
+  font-family: food;
+  src: url("../src/fonts/ChocolateBarDemo.otf");
+}
+
+@font-face {
+  font-family: tasty-food;
+  src: url("../src/fonts/BananasPersonalUse.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "food", sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-color: #1B4D3E;
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 4px solid #FFC0CB;
+}
+
+ul {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 2rem;
+}
+
+ul li {
+  margin: 0 20px;
+  color: #FFC0CB;
+  text-transform: uppercase;
+}
+ul li:hover {
+  border-bottom: 2px solid #FFC0CB;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+span {
+  background-color: #121212;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+span li {
+  margin: 10px 10px 10px 10px;
+  color: black;
+  font-size: 4rem;
+  font-family: "tasty-food", sans-serif;
+}
+
+#content {
+  background-image: url("../src/images/d28120e17fff92b90f26f88d10ce87dc.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95vh;
+  width: 100vw;
+  background-color: #1B4D3E;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
